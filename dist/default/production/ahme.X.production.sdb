@@ -1,0 +1,155 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877 ]
+[d frameptr 6 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.40\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"10 C:\Users\user\Desktop\C++\ahme.X\newmain55.c
+[v _selection selection `(i  1 e 2 0 ]
+"48
+[v _afficher afficher `(v  1 e 1 0 ]
+"91
+[v _attente attente `(v  1 e 1 0 ]
+[v i1_attente attente `(v  1 e 1 0 ]
+"104
+[v _abc abc `II(v  1 e 1 0 ]
+"238
+[v _main main `(v  1 e 1 0 ]
+"158 C:\Program Files (x86)\Microchip\xc8\v1.40\include\pic16f877.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"329
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"440
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+[s S21 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"463
+[s S30 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S35 . 1 `S21 1 . 1 0 `S30 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES35  1 e 1 @11 ]
+"1281
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1330
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1391
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1452
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1513
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"2278
+[v _INTF INTF `VEb  1 e 0 @89 ]
+"2326
+[v _RB1 RB1 `VEb  1 e 0 @49 ]
+"2328
+[v _RB2 RB2 `VEb  1 e 0 @50 ]
+"2330
+[v _RB3 RB3 `VEb  1 e 0 @51 ]
+"2332
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"2334
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"2336
+[v _RB6 RB6 `VEb  1 e 0 @54 ]
+"2338
+[v _RB7 RB7 `VEb  1 e 0 @55 ]
+"2344
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2346
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"2348
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"2350
+[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"2352
+[v _RC4 RC4 `VEb  1 e 0 @60 ]
+"2354
+[v _RC5 RC5 `VEb  1 e 0 @61 ]
+"2356
+[v _RC6 RC6 `VEb  1 e 0 @62 ]
+"2358
+[v _RC7 RC7 `VEb  1 e 0 @63 ]
+"2390
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"2392
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"238 C:\Users\user\Desktop\C++\ahme.X\newmain55.c
+[v _main main `(v  1 e 1 0 ]
+{
+"261
+[v main@k k `i  1 a 2 19 ]
+"273
+} 0
+"91
+[v _attente attente `(v  1 e 1 0 ]
+{
+"92
+[v attente@j j `i  1 a 2 17 ]
+[v attente@i i `i  1 a 2 15 ]
+"99
+} 0
+"104
+[v _abc abc `II(v  1 e 1 0 ]
+{
+"112
+[v abc@tab1 tab1 `[15]i  1 a 30 34 ]
+"113
+[v abc@tab2 tab2 `[15]i  1 a 30 0 ]
+"131
+[v abc@i i `i  1 a 2 70 ]
+"220
+[v abc@q q `i  1 a 2 68 ]
+"129
+[v abc@min min `i  1 a 2 66 ]
+"114
+[v abc@v v `i  1 a 2 64 ]
+"128
+[v abc@im im `i  1 a 2 32 ]
+"131
+[v abc@j j `i  1 a 2 30 ]
+"234
+} 0
+"91
+[v i1_attente attente `(v  1 e 1 0 ]
+{
+[v i1attente@j attente `i  1 a 2 2 ]
+[v i1attente@i attente `i  1 a 2 0 ]
+"99
+} 0
+"10
+[v _selection selection `(i  1 e 2 0 ]
+{
+[v selection@tab1 tab1 `*.4i  1 a 1 wreg ]
+"11
+[v selection@i i `i  1 a 2 3 ]
+[v selection@min min `i  1 a 2 1 ]
+"10
+[v selection@tab1 tab1 `*.4i  1 a 1 wreg ]
+[v selection@tab2 tab2 `*.4i  1 p 1 0 ]
+[v selection@tab1 tab1 `*.4i  1 a 1 0 ]
+"46
+} 0
+"48
+[v _afficher afficher `(v  1 e 1 0 ]
+{
+[v afficher@im im `i  1 p 2 0 ]
+"88
+} 0
